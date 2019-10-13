@@ -9,3 +9,13 @@ spec:
     git: https://github.com/stefanprodan/podinfo
     ref: v3.x
     path: charts/podinfo
+  values:
+    service:
+      enabled: true
+      type: ClusterIP
+    ingress:
+      enabled: false
+      path: /*
+      annotations:
+        kubernetes.io/ingress.class: alb # nginx
+        alb.ingress.kubernetes.io/scheme: internet-facing
