@@ -1,4 +1,5 @@
 amazon-cloudwatch/
 kube-system/
 namespaces/amazon-cloudwatch.yaml
-
+demo/helm-release.yaml
+.eksctlignore

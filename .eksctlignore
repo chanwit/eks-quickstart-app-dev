@@ -1,3 +1,4 @@
 metallb-system/
 nginx-ingress/
+demo/helm-release-nginx.yaml
 .wksctlignore
